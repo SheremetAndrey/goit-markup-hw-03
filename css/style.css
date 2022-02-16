@@ -1,0 +1,661 @@
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+body {
+  font-family: Roboto, sans-serif;
+}
+:root {
+  --main-font: Roboto;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  font-family: Roboto;
+  background: #ffffff;
+}
+/* WebStudio */
+.header-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+/* WebStudio */
+.logo-studio {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
+/* Студия */
+.header-item-studio {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+/* Студия */
+.header-item-studio:hover {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+/* Портфолио */
+.header-item-portfolio {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+/* Портфолио */
+.header-item-portfolio:hover {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+/* Контакты */
+.header-item-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+/* Контакты */
+.header-item-contacts:hover {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+/* info@devstudio.com */
+.header-mail {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+/* info@devstudio.com */
+.header-mail:hover {
+  color: #2196f3;
+}
+/* +38 096 111 11 11 */
+.header-phone {
+  color: #757575;
+}
+/* +38 096 111 11 11 */
+.header-phone:hover {
+  color: #2196f3;
+}
+
+/* Bg */
+.unique-content {
+  background-color: #2f303a;
+}
+/* Эффективные решения для вашего бизнеса */
+.main-logo {
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: 44px;
+  font-weight: 900;
+
+  color: #ffffff;
+}
+
+/* bg кнопка */
+.main-button {
+  cursor: pointer;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+}
+.main-button:hover,
+.main-button:focus {
+  font-family: Roboto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+/* Внимание к деталям */
+.hero-title-atention {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.15x;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+/* Идейные соображения, а также начало повседневной работы по формированию позиции. */
+.upper-title-atention {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* Пунктуальность */
+.hero-title-punctuality {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+/* Задача организации, в особенности же рамки и место обучения кадров влечет за собой. */
+.upper-title-punctuality {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/* Планирование */
+.hero-title-planning {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+/* Равным образом консультация с широким активом в значительной степени обуславливает. */
+.upper-title-planning {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/* Современные технологии */
+.hero-title-tehnology {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+/* Значимость этих проблем настолько очевидна, что реализация плановых заданий. */
+.upper-title-tehnology {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/* Чем мы занимаемся */
+.study-title {
+  color: #212121;
+  font-weight: bold;
+  font-size: 36px;
+}
+/* img */
+.study-item-image {
+  width: 370px;
+}
+/* img1 */
+.study-item-image1 {
+  width: 370px;
+}
+
+.study-item-image2 {
+  width: 370px;
+}
+/* Внимание к деталям */
+.hero-title-atention {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.15;
+
+  color: #212121;
+}
+/* Идейные соображения, а также начало повседневной работы по формированию позиции. */
+.upper-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+/* Section bg */
+.about {
+  width: 1600px;
+  background: #f5f4fa;
+}
+/* Наша команда */
+.about-text {
+  color: #212121;
+  font-weight: bold;
+  font-size: 36px;
+}
+.about-item-comand {
+  width: 1170px;
+}
+.about-imag1 {
+  width: 270px;
+}
+/* img1 */
+.about-title-igor {
+  font-weight: 500;
+  font-size: 16px;
+  color: #212121;
+}
+/* Product Designer */
+.about-upper-product {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+
+  color: #757575;
+}
+/* img2 */
+.about-item-block {
+  width: 270px;
+}
+.about-imag2 {
+  width: 270px;
+}
+.about-title-olga {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #212121;
+}
+.about-upper-fronted {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+/* img3 */
+.about-item-box {
+  width: 270px;
+}
+.about-imag3 {
+  width: 270px;
+}
+.about-title-nicolay {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #212121;
+}
+.about-upper-marketing {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+/* img4 */
+.about-item {
+  width: 270px;
+}
+.about-imag4 {
+  width: 270px;
+}
+.about-title-mihail {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #212121;
+}
+.about-upper-designer {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #757575;
+}
+/* Footer bg*/
+.basement {
+  width: 1600px;
+  background: #2f303a;
+}
+.adress {
+  font-size: 14px;
+}
+.footer-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+.address {
+  font-style: normal;
+  color: #ffffff;
+}
+.footer-item {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.logo-studio-footer {
+  color: #ffffff;
+}
+/*----ПОРТФОЛИО----*/
+/* КНОПКИ*/
+.header-list {
+  font-family: Roboto;
+}
+.button-all {
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.button-all:hover {
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.button-web {
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.button-web:hover {
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.button-app {
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.button-app:hover {
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.button-design {
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.button-design:hover {
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.button-marketing {
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.button-marketing:hover {
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+/*Блоки*/
+/*BLOK 1*/
+.main-content-one {
+  width: 370px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.image-one {
+  width: 370px;
+}
+.paragraph-one {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.title-one {
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*BLOK 2*/
+.main-content-two {
+  width: 370px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.image-two {
+  width: 370px;
+}
+.paragraph-two {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.title-two {
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*BLOK 3*/
+.main-content-tree {
+  width: 370px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.image-tree {
+  width: 370px;
+}
+.paragraph-tree {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.title-tree {
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*BLOK 4*/
+.main-content-four {
+  width: 370px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.image-four {
+  width: 370px;
+}
+.paragraph-four {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.title-four {
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*BLOK 5*/
+.main-content-five {
+  width: 370px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.image-five {
+  width: 370px;
+}
+.paragraph-five {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.title-five {
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*BLOK 6*/
+.main-content-six {
+  width: 370px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.image-six {
+  width: 370px;
+}
+.paragraph-six {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.title-six {
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*BLOK 7*/
+.main-content-seven {
+  width: 370px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.image-seven {
+  width: 370px;
+}
+.paragraph-seven {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.title-seven {
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*BLOK 8*/
+.main-content-eight {
+  width: 370px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.image-eight {
+  width: 370px;
+}
+.title-eight {
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.paragraph-eight {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+/*BLOK 9*/
+.main-content-nine {
+  width: 370px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.image-nine {
+  width: 370px;
+}
+.paragraph-nine {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.title-nine {
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
