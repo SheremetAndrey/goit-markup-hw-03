@@ -321,8 +321,7 @@ button {
 .about-upper-product {
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.18;
-
+  line-height: 19px;
   color: #757575;
 }
 /* img2 */
@@ -343,6 +342,7 @@ button {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
+  color: #757575;
 }
 /* img3 */
 .about-item-box {
@@ -362,6 +362,7 @@ button {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
+  color: #757575;
 }
 /* img4 */
 .about-item {
@@ -377,7 +378,7 @@ button {
 
   color: #212121;
 }
-.about-upper-designer {
+.about-upper {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
