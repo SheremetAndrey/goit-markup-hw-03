@@ -200,8 +200,6 @@ p {
   color: #2196f3;
 }
 .hero {
-  width: 1170px;
-  height: 101px;
   margin-left: 215px;
   margin-right: 215px;
 }
@@ -209,7 +207,7 @@ p {
 .hero-list {
   display: flex;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 94px;
 }
 nav :last-child {
   margin-right: 50px;
