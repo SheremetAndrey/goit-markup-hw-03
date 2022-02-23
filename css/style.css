@@ -475,6 +475,9 @@ nav :last-child {
 .logo-studio-footer {
   color: #ffffff;
 }
+.footer-list {
+  margin-bottom: 60px;
+}
 /*----ПОРТФОЛИО----*/
 /*секция хедер*/
 
