@@ -449,7 +449,7 @@ nav :last-child {
 }
 /* Footer bg*/
 .basement {
-  width: 1600px;
+  max-width: 1600px;
   height: 252px;
   background: #2f303a;
 }
@@ -528,6 +528,9 @@ nav :last-child {
   display: flex;
 }
 
+.uniqum-content-block {
+  position: relative;
+}
 .main-content {
   margin: 15px;
   border: 1px solid #eeeeee;
