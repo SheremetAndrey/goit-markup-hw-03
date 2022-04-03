@@ -200,6 +200,7 @@ p {
   color: #2196f3;
 }
 .hero {
+  max-width: 1600px;
   margin-left: 215px;
   margin-right: 215px;
 }
@@ -222,7 +223,7 @@ nav :last-child {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-  width: 1600px;
+  max-width: 1600px;
   height: 600px;
   background-color: #2f303a;
 }
@@ -333,7 +334,7 @@ nav :last-child {
   padding-bottom: 94px;
   padding-top: 94px;
   padding-bottom: 94px;
-  width: 1600px;
+  max-width: 1600px;
   height: 648px;
 
   background: #f5f4fa;
@@ -452,6 +453,10 @@ nav :last-child {
   height: 252px;
   background: #2f303a;
 }
+.logo-footer {
+  padding-top: 60px;
+  padding-left: 215px;
+}
 .adress {
   font-size: 14px;
 }
@@ -468,6 +473,7 @@ nav :last-child {
   cursor: default;
   line-height: 1.71;
   font-style: normal;
+
   display: block;
   color: #ffffff;
   margin-bottom: 9px;
