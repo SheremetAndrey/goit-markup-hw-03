@@ -44,7 +44,7 @@ p {
 }
 .header {
  
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #eeeeee;
   padding-bottom: 25px;
   padding-top: 25px;
 }
@@ -61,6 +61,7 @@ p {
 }
 .header-nav-list {
   display: flex;
+  align-items: center;
 }
 /* WebStudio */
 
@@ -92,6 +93,7 @@ p {
   display: flex;
   margin: 0px;
 }
+
 .header-item-studio {
   font-weight: 500;
   padding-top: 32px;
@@ -133,7 +135,7 @@ p {
   color: #2196f3;
 }
 /* Контакты */
-.nav-item {
+.nav-item :last-child {
   margin-right: 50px;
 }
 .header-item-contacts {
@@ -160,11 +162,12 @@ p {
   display: flex;
   margin-top: 0px;
   margin-bottom: 0px;
+  margin-left: auto;
 }
 /* info@devstudio.com */
-.mail-contacts {
-  margin: auto;
+.mail-contacts :last-child {
   display: block;
+  margin-right: 50px;
   
 }
 
@@ -175,8 +178,6 @@ p {
   font-size: 14px;
   line-height: 1.14;
   color: #757575;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 /* info@devstudio.com */
 .header-mail:hover,
@@ -187,12 +188,10 @@ p {
 
 .header-phone {
   display: block;
-  margin-left: 50px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  margin-left: 50px;
   color: #757575;
 }
 /* +38 096 111 11 11 */
@@ -211,7 +210,7 @@ p {
 header li :last-child {
   margin-right: auto;
 }
-.hero-item {
+.hero-item :last-child {
   letter-spacing: 0.03em;
   margin-right: 30px;
   width: 270px;
@@ -290,6 +289,8 @@ header li :last-child {
 }
 /* Чем мы занимаемся */
 .study {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .study-title {
@@ -305,7 +306,7 @@ header li :last-child {
 .study-list {
   display: flex;
 }
-.picture-item {
+.picture-item:not(:last-child) {
   margin-right: 30px;
 }
 /* img */
@@ -520,6 +521,9 @@ header li :last-child {
 
 .uniqum-content-block {
   position: relative;
+  display: flex;
+  flex-wrap: wrap;
+
 }
 .main-content {
   margin: 15px;
