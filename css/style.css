@@ -199,22 +199,14 @@ p {
 .header-phone:focus {
   color: #2196f3;
 }
-.hero {
- 
-}
 /* Bg */
 .hero-list {
   display: flex;
-  margin-top: 0px;
+  padding-top: 94px;
 }
-header li :last-child {
-  margin-right: auto;
-}
-.hero-item :last-child {
-  letter-spacing: 0.03em;
-  margin-right: 30px;
-  width: 270px;
-}
+ .hero-item:not(:last-child){
+   margin-right: 30px;
+ }
 
 .unique-content {
   padding-top: 200px;
@@ -263,14 +255,12 @@ header li :last-child {
   border-radius: 4px;
   border: 0;
 }
-.hero-list {
-  padding: top 20px;
-}
+
 
 /* Внимание к деталям */
 .hero-title {
   font-size: 14px;
-  line-height: 1.15x;
+  line-height: 1.15;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -282,8 +272,6 @@ header li :last-child {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  width: 270px;
-  height: 75px;
 
   color: #757575;
 }
@@ -308,6 +296,7 @@ header li :last-child {
 }
 .picture-item:not(:last-child) {
   margin-right: 30px;
+ 
 }
 /* img */
 .study-item-image {
@@ -348,9 +337,6 @@ header li :last-child {
   box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
     0px 2px 1px rgb(0 0 0 / 20%);
   background: var(--main-background-color);
-}
-.about-item :last-child {
-  margin-right: 0px;
 }
 .about-imag1 {
   width: 270px;
@@ -439,11 +425,12 @@ header li :last-child {
   color: #757575;
 }
 /* Footer bg*/
-.basement {
-  max-width: 1600px;
-  height: 252px;
-  background: #2f303a;
+.footer-container{
+background: #2f303a;
+padding-top: 60px;
+padding-bottom: 60px;
 }
+
 .logo-footer {
   padding-top: 60px;
   padding-left: 215px;
