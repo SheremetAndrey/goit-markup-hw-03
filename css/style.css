@@ -535,6 +535,7 @@ padding-bottom: 60px;
   
   box-sizing: border-box;
   width: 370px;
+  height: 404px;  
   background: #ffffff;
 }
 .image {
@@ -545,11 +546,14 @@ padding-bottom: 60px;
   font-size: 18px;
   letter-spacing: 0.06em;
   color: #212121;
+  margin-top: 20px;
 }
 .title {
   font-size: 16px;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-top: 4px;
+  margin-bottom: 20px;
 }
 .footer-container {
   width: 1600px;
@@ -572,8 +576,11 @@ padding-bottom: 60px;
   padding-top:20px ;
   padding-bottom:20px ;
   padding-left:24px ;
-  padding-right:24px ;
   border-left: 1px solid #EEEEEE;
   border-right: 1px solid #EEEEEE;
   border-bottom:1px solid #EEEEEE;
+  
+}
+.Star{
+  white-space: nowrap
 }
